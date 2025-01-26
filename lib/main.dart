@@ -23,7 +23,7 @@ class Calendar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('カレンダー'),
+        title: const Text('MOVIEGOER'),
       ),
       body: TableCalendar(
         firstDay: DateTime.utc(2000, 1, 1),
