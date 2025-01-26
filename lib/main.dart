@@ -26,8 +26,8 @@ class Calendar extends StatelessWidget {
         title: const Text('カレンダー'),
       ),
       body: TableCalendar(
-        firstDay: DateTime.utc(1999, 1, 7),
-        lastDay: DateTime.utc(2099, 1, 7),
+        firstDay: DateTime.utc(2000, 1, 1),
+        lastDay: DateTime.utc(2100, 1, 1),
         focusedDay: DateTime.now(),
       ),
     );
