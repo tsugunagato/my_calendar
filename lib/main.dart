@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
+import 'package:intl/date_symbol_data_local.dart';
 
 void main() {
-  runApp(const MainApp());
+  initializeDateFormatting().then((_) => runApp(MainApp()));
 }
 
 class MainApp extends StatelessWidget {
@@ -29,6 +30,7 @@ class Calendar extends StatelessWidget {
         firstDay: DateTime.utc(2000, 1, 1),
         lastDay: DateTime.utc(2100, 1, 1),
         focusedDay: DateTime.now(),
+        locale: "ja_JP",
       ),
     );
   }
