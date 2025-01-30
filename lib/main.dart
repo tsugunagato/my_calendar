@@ -46,8 +46,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const selectedColor = 0xFF1976D2;
-    const todayColor = 0xFFE91E63;
+    const selectedColor = 0xFF33CCFF;
+    const todayColor = 0xFFFF3300;
     return Scaffold(
       appBar: AppBar(title: const Text('MOVIEGOER')),
       body: Column(
